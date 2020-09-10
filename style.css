@@ -1,0 +1,217 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,600&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap');
+</style>
+p{
+    color:black;
+    font-weight:100px;
+}
+*
+{
+    padding: 0px;
+    margin:0px;
+}
+#skills ul{
+    list-style:none;
+    margin:5px;
+    padding-top: 5px;;
+}
+#skills h3{
+    text-align:center;
+    color:red;
+    font-weight: bolder;
+}
+#skills ul li{
+    margin:10px 0px;
+}
+h1{
+    font-size:3em;
+}
+h2{
+    font-size:3em;
+    text-weight:bold;
+}
+h3{
+    font-weight:5em;
+}
+h4{
+    font-size:250
+}
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size:20px;
+    background-color:#EFFEE0;
+    
+}
+.logo-text{
+    
+    font-size:2em;
+    font-weight:500;
+    color:#F05136;
+    
+}
+nav{
+    
+    height:80px;
+}
+
+#bio
+{
+    display:flex;
+    align-items:center;
+    justify-content:right;
+}
+.nav-link
+{
+
+    font-size: 1.4em;
+    text-decoration:none;
+    color:black;
+    cursor:pointer;
+}
+.nav-link:hover
+{
+    color:blue;
+}
+header{
+    background:black;
+    height:250px;
+    
+    
+}
+header div h1{
+    color:white;
+
+}
+header div p{
+    font-size:1.5em;
+    font-weight:50;
+    color:red;
+}
+h1,h2,h3,h4{
+    font-weight:bold;
+}
+.link-button
+{
+text-decoration: none;
+text-align:center;
+color:whitesmoke;
+background-color: indianred;
+font-weight:200;
+letter-spacing:0.5px;
+cursor:pointer;
+border-radius:5%;
+border-color: black;
+}
+#home
+{
+    text-align: center;
+}
+#bio img{
+    border-radius: 50%;
+    padding:10px;
+    margin:100px;
+}
+#portfolio
+{
+    background:black;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 5px;;
+    
+}
+#portfolio h3,h4,hr{
+    margin-bottom: 10px;
+}
+/* #portfolio p {
+    color:black;
+    font-size:100;
+    text-align:center;
+
+} */
+
+#portfolio div{
+    display:flex;
+    justify-content:space-around;
+    border-radius:50%;
+    margin:10px;
+    width: 100%;
+
+}
+hr{
+    width:400px;
+}
+#portfolio div article
+{
+    background:white;
+    color:black;
+    height:300px;
+    width:300px;
+    display:flex;
+    align-items: center; 
+    flex-direction: column;
+ justify-content: space-around; 
+ text-align:center;
+ border-radius: 50px;
+
+}
+
+progress[value]
+{
+    height:10px;
+    width:350px;
+    /* -webkit-appearance: none;
+background-color:blue; */
+}
+#contact
+{
+    background-color:black;
+    color:white;
+    /* width:0px; */
+    margin:10px;
+
+}
+form input{
+    border-radius:3px;
+    line-height: 3em;
+    border-color:black;
+}
+nav ul {
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    list-style: none;
+    padding:10px;
+}
+nav ul li{
+    margin:10px;
+}
+#home
+{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+}
+#skills{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 5px;
+}
+#div-container{
+    display:flex;
+    justify-content: space-around;
+    width:100%;
+    
+}
+#contact
+{
+    display: flex;
+justify-content: space-around;
+flex-direction: column;
+align-items: center;
+}
+
